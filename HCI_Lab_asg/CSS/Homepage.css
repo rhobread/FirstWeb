@@ -1,0 +1,159 @@
+*{
+    margin:0; 
+    padding:0;
+}
+
+body{
+    background: #000000;
+}
+
+.logo img{
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.header .container {
+    position: absolute;
+    display: flex;
+    right: 0;
+    left: 0;
+    background-color:rgb(0, 0, 0, 0.6);
+    width : 100%;
+    justify-content: center;
+    margin : auto;
+    
+}
+
+.logo{
+    flex-grow : 1;
+}
+
+.options {
+    flex-grow : 8;
+}
+
+.options ul{
+    list-style : none;
+}
+
+.options ul li{
+    float : left;
+    width : 20%;
+    text-align : center;
+    line-height: 100px;
+}
+
+.options ul li a{
+    text-decoration : none;
+    display : block;
+    color : #dce0dd;
+}
+
+.options ul li a:hover{
+    text-decoration : none;
+    display : block;
+    color : white;
+    background-color : #010506;
+}
+
+image{
+    background-color: #000000;
+    width: 100%;
+}
+.image{
+    width: 100%;
+}
+
+.slogan{
+    position: absolute;
+    top: 50vh;
+    left: 580px;
+    align-items: center;
+    text-align: center;
+    color: azure;
+}
+
+.explanation{
+    background: #000000 ;
+    text-align: center;
+}
+
+.quotes{
+    width: 980px;
+    margin: auto;
+}
+
+.quotes p{
+    padding: 30px 0;
+    font-weight: 300;
+    line-height: 48px;
+    font-size: 28px;
+    color: aliceblue;
+}
+
+.quotes span{
+    background: #010506;
+    color: #010506;
+}
+
+.intro{
+    display: flex;
+    width: 980px;
+    margin: 20px auto;
+}
+
+.astro{
+    color: #ffffff;
+}
+
+.astro h2, .astro h4, .astro p{
+    margin: 10px 0;
+    font-size: 12;
+}
+
+.astro a{
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    margin: 10px 0;
+    color: #ffffffcf;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.astro a:hover{
+    background: rgb(202, 202, 134);
+    color: #ffffff;
+}
+
+.move{
+    padding: 15px;
+}
+
+.social{
+    background: rgba(240, 183, 118, 0.6);
+    text-align: center;
+}
+
+.link{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    color: azure;
+}
+
+.link h1{
+    font-size: 36px;
+    color: #fff;
+}
+
+.link p{
+    line-height: 26px;
+}
+
+.link a{
+    color: rgb(64, 25, 25);
+    text-decoration: none;
+}
